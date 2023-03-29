@@ -2,7 +2,11 @@ module github.com/glauberratti/gopportunities
 
 go 1.20
 
-require github.com/gin-gonic/gin v1.9.0
+require (
+	github.com/gin-gonic/gin v1.9.0
+	gorm.io/driver/sqlite v1.4.4
+	gorm.io/gorm v1.24.6
+)
 
 require (
 	github.com/bytedance/sonic v1.8.6 // indirect
@@ -31,6 +35,4 @@ require (
 	golang.org/x/text v0.8.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/sqlite v1.4.4 // indirect
-	gorm.io/gorm v1.24.6 // indirect
 )
